@@ -1,0 +1,65 @@
+
+
+body {
+    background-color: darkcyan;
+}
+.head {
+    position: fixed;
+    z-index: 1;
+}
+nav {
+    height: 3em;
+    position: fixed;
+    margin-top: 7%
+}
+nav li {
+    float: left;
+    list-style-type: none;
+    margin: .5em 1em 0 1em;
+    font-family: "Ariel", "Helvetica", sans-serif;
+
+}
+
+li {
+    background-color: darkcyan;
+    padding: 7px;
+    border-radius: 50%;
+}
+h1 {
+    text-transform: uppercase;
+}
+main {
+    width:70%;
+    float: left;
+}
+aside {
+    width: 30%;
+    float: right;
+}
+.container{
+    background-color: wheat;
+    width: 90%;
+    margin: 0 auto;
+}
+.bigimage{
+    width: 100%;
+}
+nav li a{
+    color: lightblue;
+}
+nav li a:hover{
+    color: pink;
+}
+.page {
+    display: flex;
+}
+
+h1, h2, h3{
+    color:crimson;
+}
+footer {
+    background-color: gainsboro;
+    color: #ff00ff;
+    text-align: center;
+    clear: both
+}
